@@ -1,0 +1,41 @@
+{
+  "name": "aws-lambda-utils",
+  "version": "0.0.0",
+  "description": "Lambda utilities",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "node_modules/.bin/tslint -c tslint.json 'src/**/*.ts' -e '**/*.d.ts'",
+    "check": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vdubois/aws-lambda-utils.git"
+  },
+  "keywords": [
+    "sdk",
+    "lambda",
+    "utilities"
+  ],
+  "author": "Vincent Dubois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdubois/aws-lambda-utils/issues"
+  },
+  "homepage": "https://github.com/vdubois/aws-lambda-utils#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "ts-loader": "^3.2.0",
+    "ts-node": "^4.0.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {}
+}

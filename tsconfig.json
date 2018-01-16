@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": false,
+    "declaration": true,
+    "lib": [
+      "ES2015"
+    ],
+    "outDir": "./",
+    "rootDir": "./"
+  },
+  "include": [
+    "index.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "e2e/**/*.ts",
+    "spec/**/*.ts",
+    "**/*.spec.ts"
+  ],
+  "compileOnSave": true
+}
